@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Restaurante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sb-track" aria-hidden="true">
+        <div class="sb-thumb" id="sbThumb"></div>
+    </div>
+    <header>
+        <div class="logo">
+            <h1>Bella<span>Pizza</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="menu-mobile">
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="inicio" id="inicio">
+            <div class="overlay"></div>
+            <div class="texto-inicio">
+                <h1>Um sabor que une pessoas</h1>
+                <p>Momentos especiais merecem ser compartilhados.
+                    Descubra a experiência que vai além da mesa.
+                    Fale conosco e descubra esse sabor único.</p>
+                <div class="botoes-inicio">
+                    <button class="btn-primario"><a href="#menu">Ver Cardápio</a></button>
+                    <button class="btn-secundario"><a href="#contato">Entre em contato</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu" id="menu">
+            <div class="section-header">
+                <h2>Nosso Menu</h2>
+                <p>Descubra nossas deliciosas pizzas artesanais</p>
+            </div>
+
+            <div class="container">
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="img/pizza1.jpg" alt="Pizza de Champignon">
+                            <div class="card-tag">Mais Pedida</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Pizza de Champignon</h3>
+                            <p class="card-desc">Molho de tomate, mussarela, champignon fresco, parmesão e orégano.</p>
+                            <div class="container-preco">
+                                <p class="preco">R$</p>
+                                <p class="numero">79,90</p>
+                            </div>
+                            <button class="btn-card">Pedir agora</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="img/pizza2.jpg" alt="Pizza Margherita">
+                        </div>
+                        <div class="card-content">
+                            <h3>Pizza Margherita</h3>
+                            <p class="card-desc">Molho de tomate, mussarela de búfala, tomate, manjericão fresco e
+                                azeite.</p>
+                            <div class="container-preco">
+                                <p class="preco">R$</p>
+                                <p class="numero">59,90</p>
+                            </div>
+                            <button class="btn-card">Pedir agora</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="img/pizza3.jpg" alt="Pizza Calabresa">
+                            <div class="card-tag">Tradicional</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Pizza Calabresa</h3>
+                            <p class="card-desc">Molho de tomate, mussarela, calabresa fatiada, cebola e orégano.</p>
+                            <div class="container-preco">
+                                <p class="preco">R$</p>
+                                <p class="numero">69,90</p>
+                            </div>
+                            <button class="btn-card">Pedir agora</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="img/pizza4.jpg" alt="Pizza Quatro Queijos">
+                        </div>
+                        <div class="card-content">
+                            <h3>Pizza Quatro Queijos</h3>
+                            <p class="card-desc">Molho de tomate, mussarela, provolone, gorgonzola, parmesão e orégano.
+                            </p>
+                            <div class="container-preco">
+                                <p class="preco">R$</p>
+                                <p class="numero">74,90</p>
+                            </div>
+                            <button class="btn-card">Pedir agora</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="img/pizza5.jpg" alt="Pizza Especial">
+                            <div class="card-tag">Premium</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Pizza Especial</h3>
+                            <p class="card-desc">Molho de tomate, mussarela, presunto, palmito, champignon, azeitonas e
+                                orégano.</p>
+                            <div class="container-preco">
+                                <p class="preco">R$</p>
+                                <p class="numero">89,90</p>
+                            </div>
+                            <button class="btn-card">Pedir agora</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="img/pizza6.jpg" alt="Pizza Vegetariana">
+                            <div class="card-tag">Vegetariana</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Pizza Vegetariana</h3>
+                            <p class="card-desc">Molho de tomate, mussarela, berinjela, abobrinha, pimentão, cebola e
+                                orégano.</p>
+                            <div class="container-preco">
+                                <p class="preco">R$</p>
+                                <p class="numero">64,90</p>
+                            </div>
+                            <button class="btn-card">Pedir agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="depoimentos" id="depoimentos">
+            <div class="section-header">
+                <h2>O que nossos clientes dizem</h2>
+                <p>Veja a opinião de quem já experimentou nossas deliciosas pizzas</p>
+            </div>
+
+            <div class="container">
+                <div class="depoimentos-slider">
+                    <div class="depoimento-card">
+                        <div class="depoimento-img">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente João">
+                        </div>
+                        <div class="depoimento-texto">
+                            <div class="estrelas">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"A melhor pizza que já comi! Massa perfeita, ingredientes frescos e um atendimento
+                                impecável. Recomendo a todos!"</p>
+                            <h4>João Silva</h4>
+                            <span>Cliente desde 2020</span>
+                        </div>
+                    </div>
+
+                    <div class="depoimento-card">
+                        <div class="depoimento-img">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Cliente Maria">
+                        </div>
+                        <div class="depoimento-texto">
+                            <div class="estrelas">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>"Ambiente aconchegante e pizzas deliciosas. A pizza de champignon é simplesmente divina!
+                                Sempre volto com a família."</p>
+                            <h4>Maria Oliveira</h4>
+                            <span>Cliente desde 2021</span>
+                        </div>
+                    </div>
+
+                    <div class="depoimento-card">
+                        <div class="depoimento-img">
+                            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Cliente Pedro">
+                        </div>
+                        <div class="depoimento-texto">
+                            <div class="estrelas">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"Peço delivery toda semana e nunca me decepcionou. Entrega rápida, pizza sempre quente e
+                                saborosa. A melhor da cidade!"</p>
+                            <h4>Pedro Santos</h4>
+                            <span>Cliente desde 2019</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>Faça sua reserva ou envie uma mensagem</p>
+            </div>
+
+            <div class="container">
+                <div class="contato-container">
+                    <div class="contato-info">
+                        <div class="contato-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Endereço</h3>
+                                <p>Av. Paulista, 1000 - São Paulo, SP</p>
+                            </div>
+                        </div>
+
+                        <div class="contato-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>Telefone</h3>
+                                <p>(11) 99999-9999</p>
+                            </div>
+                        </div>
+
+                        <div class="contato-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>contato@bellapizza.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contato-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Horário de Funcionamento</h3>
+                                <p>Seg-Sex: 18h às 23h</p>
+                                <p>Sáb-Dom: 18h às 00h</p>
+                            </div>
+                        </div>
+
+                        <div class="redes-sociais">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contato-form">
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Seu email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone">
+                            </div>
+
+                            <div class="form-group">
+                                <select id="assunto" name="assunto">
+                                    <option value="" disabled selected>Selecione o assunto</option>
+                                    <option value="reserva">Reserva</option>
+                                    <option value="delivery">Delivery</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" rows="5"
+                                    required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Bella<span>Pizza</span></h2>
+                    <p>Sabor e tradição italiana desde 2010</p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Inscreva-se para receber nossas promoções</p>
+                    <form>
+                        <input type="email" placeholder="Seu email">
+                        <button type="submit">Inscrever</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 BellaPizza. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
